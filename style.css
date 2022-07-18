@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10vw; 
+  float: left;
+  position: static;
+  text-transform: uppercase;
+  margin: 50px;
+}
+
+nav{
+  background-color: #ff8c82;
+  position: sticky;
+  clear: both;
+  padding: 5px 0px 40px 0px;
+  width:100%;
+  margin: 0px;
+}
+
+.header_break {
+            display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 10px; /* change this to whatever height you want it */
+}
+
+img{
+  float: right;
+  height: 270;
+}
+
+.navbutton{
+  float: right;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  padding: 0px 15px;
+  list-style: none
+}
+
+.column{
+  float:left;
+  width: 26%;
+  margin: 20px 10px 10px;
+  border: 2px solid #ff8c82;
+  padding: 5px 15px 15px;
+  height: 30vw;
+}
+
+.column_header{
+  font-family: "Roboto";
+}
+
+.small_text{
+  font-family: "EB Garamond";
+}
+
+.horizontal_section{
+  clear: both;
+  padding:0;
+  margin:0;
+}
+
+.section_header{
+  width:100%;
+  display:inline-block;
+  font-family: "Ibarra Real Nova";
+  font-size: 5vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  margin: 20px 0px;
+  border-style: double none;
+  border-color: #ff8c82;
+  background-color: white;
+  text-align: center;
+}
+
+#portfolio_header{
+  display: inline-block;
+  background-image: url("daisies.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  padding-bottom: 15vw;
+  color: white;
+}
+
+#About_header{
+  text-align: center;
+  background-image: url("burst_bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  width: 100%;
+  background-size: contain;
+  margin: 0px;
+  color: black;
+}
